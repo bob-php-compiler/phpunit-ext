@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS phpunit_ext;
+CREATE TABLE phpunit_ext(id int NOT NULL PRIMARY KEY, val VARCHAR(10));

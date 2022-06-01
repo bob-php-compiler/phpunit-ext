@@ -1,0 +1,4 @@
+<?php
+
+class PHPUnit_DbUnit_DataSet_QueryDataSet extends PHPUnit_Extensions_Database_DataSet_QueryDataSet
+{}
