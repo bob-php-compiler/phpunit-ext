@@ -16,6 +16,6 @@ clean:
 test: run-test.php test-files
 	bpc -u phpunit \
         -u phpunit-ext \
-        -d display-errors=on \
+        -d display_errors=on \
         run-test.php \
         --input-file test-files
