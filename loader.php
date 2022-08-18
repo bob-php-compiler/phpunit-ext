@@ -1,6 +1,6 @@
 <?php
 
-include 'DbUnit/TestCase.php';
-include 'DbUnit/Mysql/TestCase.php';
-include 'DbUnit/DataSet/FilterDataSet.php';
-include 'DbUnit/DataSet/QueryDataSet.php';
+include_once __DIR__ . '/DbUnit/TestCase.php';
+include_once __DIR__ . '/DbUnit/Mysql/TestCase.php';
+include_once __DIR__ . '/DbUnit/DataSet/FilterDataSet.php';
+include_once __DIR__ . '/DbUnit/DataSet/QueryDataSet.php';
