@@ -5,7 +5,7 @@ abstract class PHPUnit_DbUnit_Mysql_TestCase extends PHPUnit_DbUnit_TestCase
     protected $mysqlHost     = '127.0.0.1';
     protected $mysqlPort     = 3307;
     protected $mysqlDbname   = 'test';
-    protected $mysqlCharset  = 'utf8';
+    protected $mysqlCharset  = 'utf8mb4';
     protected $mysqlUsername = 'root';
     protected $mysqlPasswd   = '123456';
 
